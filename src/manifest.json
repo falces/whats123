@@ -14,5 +14,6 @@
     },
     "permissions": [
         "tabs"
-    ]
+    ],
+    "data_collection_permissions": []
 }
