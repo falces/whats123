@@ -15,5 +15,12 @@
     "permissions": [
         "tabs"
     ],
-    "data_collection_permissions": []
+    "browser_specific_settings": {
+        "id": "@whats123",
+        "gecko": {
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    }
 }
