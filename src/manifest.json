@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Whats123",
+    "version": "1.0",
+
+    "description": "Text to any number with WhatsApp without save it in your phone",
+
+    "icons": {
+        "48": "icons/whats123-48.png"
+    },
+
+    "browser_action": {
+        "default_area": "navbar",                            
+        "default_icon": "icons/whats123-48.png",
+        "default_title": "Whats123",
+        "default_popup": "popup.html"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "falces@gmail.com",
+            "data_collection_permissions": {
+                "enabled": true,
+                "required": [
+                    "websiteContent"
+                ]
+            }
+        }
+    },
+    "permissions": [
+        "tabs"
+    ]
+}

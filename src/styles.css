@@ -1,0 +1,19 @@
+body {
+    background-image: url('background.jpg');
+}
+
+select, input, button {
+    border: none;
+    border-radius: 5px;
+    height: 2em;
+}
+
+button {
+    background-color: #fff;
+    color: #093321;
+    border: 1px !important;
+}
+
+#prefix {
+    width: 120px;
+}
